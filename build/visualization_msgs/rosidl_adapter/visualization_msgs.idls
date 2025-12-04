@@ -1,0 +1,13 @@
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MeshFile.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/UVCoordinate.idl
+/home/e/ros2_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl

@@ -1,0 +1,10 @@
+/home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+/home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so.2.0
+/home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so
+/home/e/ros2_ws/install/microcdr/include/ucdr/visibility.h
+/home/e/ros2_ws/install/microcdr/include/ucdr/microcdr.h
+/home/e/ros2_ws/install/microcdr/include/ucdr/config.h
+/home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

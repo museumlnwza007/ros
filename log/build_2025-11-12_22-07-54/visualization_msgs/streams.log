@@ -1,0 +1,681 @@
+[0.019s] Invoking command in '/home/e/ros2_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/e/ros2_ws/src/ros2/common_interfaces/visualization_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/e/ros2_ws/install/visualization_msgs
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found builtin_interfaces: 1.2.2 (/home/e/ros2_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.790s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.814s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.843s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.077s] -- Found geometry_msgs: 4.9.0 (/home/e/ros2_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.124s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.161s] -- Found sensor_msgs: 4.9.0 (/home/e/ros2_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[1.712s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.724s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.733s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.768s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.768s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.768s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.768s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.788s] -- Found PythonExtra: .so  
+[2.905s] -- Configuring done
+[2.978s] -- Generating done
+[2.994s] -- Build files have been written to: /home/e/ros2_ws/build/visualization_msgs
+[3.004s] Invoked command in '/home/e/ros2_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/e/ros2_ws/src/ros2/common_interfaces/visualization_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/e/ros2_ws/install/visualization_msgs
+[3.008s] Invoking command in '/home/e/ros2_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/e/ros2_ws/build/visualization_msgs -- -j2 -l2
+[3.066s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.489s] [  0%] Built target visualization_msgs__cpp
+[5.501s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.887s] [  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[7.939s] [  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[7.983s] [  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[8.039s] [  3%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[8.085s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[8.143s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[8.203s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[8.250s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[8.308s] [  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[8.356s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[8.690s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[8.750s] [  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[8.799s] [  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[8.859s] [  9%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[8.908s] [  9%] Built target visualization_msgs__rosidl_generator_c
+[8.942s] [  9%] Built target ament_cmake_python_copy_visualization_msgs
+[8.954s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.597s] [ 10%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[10.835s] [ 11%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[11.068s] [ 11%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[11.381s] [ 12%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[11.728s] [ 12%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[11.977s] [ 13%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[12.239s] [ 14%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[12.499s] [ 14%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[12.743s] [ 15%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[13.016s] [ 16%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[13.267s] [ 16%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[13.467s] [ 17%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[14.038s] [ 17%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[14.281s] [ 18%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[14.326s] [ 18%] Built target visualization_msgs__rosidl_typesupport_cpp
+[14.338s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.864s] [ 19%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[17.131s] [ 20%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[17.404s] [ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[17.869s] [ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[18.127s] [ 22%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[18.397s] [ 23%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[18.899s] [ 23%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[19.171s] [ 24%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[19.456s] [ 24%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[20.083s] [ 25%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[20.367s] [ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[21.223s] [ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[21.495s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[21.847s] [ 28%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.951s] [ 28%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[21.963s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[23.830s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[24.240s] [ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[24.755s] [ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[25.267s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[25.637s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[26.123s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[26.470s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[27.143s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[27.642s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[28.151s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[28.503s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[28.880s] [ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[29.245s] [ 37%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[29.758s] [ 37%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.875s] [ 37%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[29.890s] [ 38%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[31.918s] [ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_c.c.o[0m
+[31.970s] [ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_c.c.o[0m
+[32.026s] [ 40%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_c.c.o[0m
+[32.075s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_c.c.o[0m
+[32.127s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_c.c.o[0m
+[32.175s] [ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_c.c.o[0m
+[32.218s] [ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_c.c.o[0m
+[32.273s] [ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker__type_support_c.c.o[0m
+[32.350s] [ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_c.c.o[0m
+[32.392s] [ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_c.c.o[0m
+[32.436s] [ 45%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_c.c.o[0m
+[32.489s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_c.c.o[0m
+[32.534s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_c.c.o[0m
+[32.578s] [ 47%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[32.634s] [ 47%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_c
+[32.647s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[34.582s] [ 49%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[34.623s] [ 49%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[34.679s] [ 50%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[34.712s] [ 50%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[34.749s] [ 51%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[34.787s] [ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[34.826s] [ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[34.867s] [ 53%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[34.911s] [ 54%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[34.948s] [ 54%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[34.984s] [ 55%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[35.021s] [ 55%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[35.056s] [ 56%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[35.096s] [ 57%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[35.142s] [ 57%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[35.153s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[36.822s] [ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[36.867s] [ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[36.897s] [ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[36.930s] [ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[36.963s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[36.995s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[37.024s] [ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[37.058s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[37.091s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[37.124s] [ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[37.152s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[37.186s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[37.213s] [ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[37.250s] [ 66%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[37.298s] [ 66%] Built target visualization_msgs__rosidl_typesupport_c
+[37.309s] [ 67%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[39.753s] [ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp.o[0m
+[40.094s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp.o[0m
+[40.489s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp.o[0m
+[40.965s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp.o[0m
+[41.234s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp.o[0m
+[41.603s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp.o[0m
+[41.956s] [ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp.o[0m
+[42.537s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp.o[0m
+[42.905s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp.o[0m
+[43.310s] [ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp.o[0m
+[43.595s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/mesh_file__type_support_cpp.cpp.o[0m
+[43.898s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/uv_coordinate__type_support_cpp.cpp.o[0m
+[44.160s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp.o[0m
+[44.570s] [ 76%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[44.704s] [ 76%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_cpp
+[44.715s] [ 77%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[47.091s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[47.512s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[48.184s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[48.746s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[49.113s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[49.915s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[50.305s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[51.327s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[51.793s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[52.377s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[52.826s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[53.304s] [ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[53.644s] [ 85%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[54.361s] [ 85%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[54.506s] [ 85%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[54.716s] running egg_info
+[54.717s] creating visualization_msgs.egg-info
+[54.717s] writing visualization_msgs.egg-info/PKG-INFO
+[54.718s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[54.718s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[54.718s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[54.721s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[54.722s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[54.753s] [ 85%] Built target ament_cmake_python_build_visualization_msgs_egg
+[54.775s] [ 85%] Built target visualization_msgs
+[54.799s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[58.991s] [ 86%] Built target visualization_msgs__py
+[59.015s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[59.142s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[59.264s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[59.372s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[59.477s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[59.581s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[59.672s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[59.787s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[59.912s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[60.022s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[60.125s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[60.231s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[60.348s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[60.448s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so[0m
+[60.498s] [ 95%] Built target visualization_msgs__rosidl_generator_py
+[60.526s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[60.657s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[60.709s] [ 96%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[60.730s] [ 96%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[60.856s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[60.902s] [ 97%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[60.926s] [ 97%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[61.054s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[61.105s] [ 98%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[61.128s] [ 99%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[61.269s] [100%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[61.324s] [100%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+[61.339s] Invoked command in '/home/e/ros2_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/e/ros2_ws/build/visualization_msgs -- -j2 -l2
+[61.343s] Invoking command in '/home/e/ros2_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/e/ros2_ws/build/visualization_msgs
+[61.351s] -- Install configuration: ""
+[61.351s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[61.352s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.352s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.352s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[61.352s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[61.352s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+[61.353s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[61.353s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[61.353s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[61.354s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[61.354s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[61.354s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[61.354s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[61.355s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[61.356s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[61.357s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[61.358s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[61.358s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[61.358s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[61.359s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[61.359s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[61.359s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[61.359s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[61.360s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[61.360s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[61.360s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[61.360s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[61.360s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[61.361s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[61.361s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[61.361s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[61.361s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[61.362s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[61.362s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[61.362s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[61.362s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[61.362s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[61.363s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[61.363s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[61.363s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[61.364s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[61.364s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[61.364s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[61.365s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[61.365s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[61.365s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[61.365s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[61.365s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[61.366s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[61.366s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.366s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[61.370s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[61.371s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[61.371s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.371s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.371s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[61.371s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[61.372s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.372s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.372s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[61.374s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[61.374s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[61.374s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.374s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.374s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[61.374s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[61.375s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[61.375s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[61.376s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[61.376s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[61.376s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[61.376s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+[61.377s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[61.377s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[61.377s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+[61.377s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+[61.378s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[61.378s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[61.378s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[61.378s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[61.379s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[61.379s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[61.379s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[61.381s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[61.382s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[61.382s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+[61.382s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[61.382s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[61.382s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[61.383s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+[61.383s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[61.383s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[61.383s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[61.383s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+[61.384s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+[61.385s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[61.386s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[61.387s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[61.387s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[61.387s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[61.387s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.387s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[61.387s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.387s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+[61.388s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[61.388s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[61.389s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[61.389s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.389s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.389s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[61.390s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.390s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[61.390s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[61.392s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[61.393s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[61.393s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[61.393s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[61.393s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[61.393s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[61.394s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.394s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.395s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[61.395s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[61.395s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[61.396s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[61.396s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.396s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.396s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[61.396s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.396s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_c.h
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_c.h
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_c.h
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/microxrcedds
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_microxrcedds_c.h
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_c.h
+[61.397s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_c.h
+[61.398s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_c.h
+[61.398s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_c.h
+[61.398s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_c.h
+[61.398s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_microxrcedds_c.h
+[61.398s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_c.h
+[61.399s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_c.h
+[61.399s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.399s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.399s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_c.h
+[61.399s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/microxrcedds
+[61.399s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so
+[61.400s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[61.400s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.400s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.400s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.400s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[61.400s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[61.400s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[61.401s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[61.402s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[61.403s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[61.403s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[61.403s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[61.403s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[61.404s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[61.404s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[61.404s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[61.405s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[61.405s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[61.405s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.405s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.405s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[61.405s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[61.406s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[61.406s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[61.407s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[61.407s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[61.407s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.407s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.407s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[61.407s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.408s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.408s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.408s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/microxrcedds
+[61.408s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.408s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.408s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.409s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.410s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.410s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.410s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/microxrcedds
+[61.410s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_cpp.hpp
+[61.410s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[61.411s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[61.411s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[61.411s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[61.411s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[61.411s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[61.412s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[61.413s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[61.413s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[61.413s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[61.413s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[61.413s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[61.414s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[61.415s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[61.415s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[61.415s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[61.415s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[61.415s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[61.415s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[61.416s] -- Up-to-date: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[61.416s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[61.416s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[61.416s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[61.417s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[61.418s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[61.418s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[61.418s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[61.419s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[61.419s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.9.0-py3.10.egg-info
+[61.419s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.9.0-py3.10.egg-info/PKG-INFO
+[61.420s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.9.0-py3.10.egg-info/top_level.txt
+[61.423s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.9.0-py3.10.egg-info/SOURCES.txt
+[61.423s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.9.0-py3.10.egg-info/dependency_links.txt
+[61.425s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs
+[61.425s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[61.425s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg
+[61.425s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[61.425s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry_s.c
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker_s.c
+[61.426s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[61.427s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py
+[61.428s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[61.428s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[61.430s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[61.476s] Listing '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py'...
+[61.476s] Listing '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+[61.476s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py'...
+[61.477s] Listing '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py'...
+[61.477s] Compiling '/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+[61.479s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[61.481s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[61.481s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[61.482s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[61.482s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[61.482s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[61.482s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[61.483s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[61.484s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+[61.484s] -- Set runtime path of "/home/e/ros2_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+[61.484s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[61.484s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[61.485s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+[61.488s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+[61.488s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[61.488s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+[61.490s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/package.dsv
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[61.491s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[61.492s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[61.492s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[61.492s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[61.494s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[61.494s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[61.494s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[61.494s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[61.495s] -- Installing: /home/e/ros2_ws/install/visualization_msgs/share/visualization_msgs/package.xml
+[61.500s] Invoked command in '/home/e/ros2_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/e/ros2_ws/install/sensor_msgs:/home/e/ros2_ws/install/geometry_msgs:/home/e/ros2_ws/install/std_msgs:/home/e/ros2_ws/install/builtin_interfaces:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/e/ros2_ws/install/rosidl_typesupport_microxrcedds_c:/home/e/ros2_ws/install/microcdr:/home/e/ros2_ws/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/e/ros2_ws/install/sensor_msgs/lib:/home/e/ros2_ws/install/geometry_msgs/lib:/home/e/ros2_ws/install/std_msgs/lib:/home/e/ros2_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/e/ros2_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/e/ros2_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/e/ros2_ws/build/visualization_msgs

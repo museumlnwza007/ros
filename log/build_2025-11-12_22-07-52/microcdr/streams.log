@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/e/ros2_ws/build/microcdr': /usr/bin/cmake --build /home/e/ros2_ws/build/microcdr -- -j2 -l2
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[0.057s] [100%] Built target microcdr
+[0.068s] Invoked command in '/home/e/ros2_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/e/ros2_ws/build/microcdr -- -j2 -l2
+[0.081s] Invoking command in '/home/e/ros2_ws/build/microcdr': /usr/bin/cmake --install /home/e/ros2_ws/build/microcdr
+[0.087s] -- Install configuration: "Release"
+[0.087s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[0.087s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[0.087s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/lib/libmicrocdr.so
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/include/ucdr
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/include/ucdr/visibility.h
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/include/ucdr/microcdr.h
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/include/ucdr/config.h
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.088s] -- Up-to-date: /home/e/ros2_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.090s] Invoked command in '/home/e/ros2_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/e/ros2_ws/build/microcdr
